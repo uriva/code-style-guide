@@ -47,9 +47,10 @@ Prefer opinionated autoformatters which rewrite the code from its abstract synta
 Motivations:
 
 - Bug occurrence is correlated to amount of code. The more code you write, the more debugging has to be done.
-- Long implementations are usually a sign for duplication or design problems, and duplication is the opposite of reuse.
-- Code reuse enables easier code optimization (many usages are improved by a single optimization).
-- Scope size correlates to amount of possible interactions (in a scope, the reader must assume that any two elements can interact).
+- Long implementations are usually a sign for duplication or design problems.
+- Duplication is the opposite of reuse.
+- Code reuse enables easier code optimization because many locations can be improved by a single optimization.
+- Scope size correlates to amount of possible interactions. In other words, in a code scope, a reader must assume that any two elements can interact. This means that scope length is correlated to cognitive load.
 
 Therefore perhaps the only objective metric by which a design can be examined is code length.
 
