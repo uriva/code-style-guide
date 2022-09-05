@@ -343,7 +343,7 @@ No:
 
 ```python
 def calculate(x, addition, multiplication=1):
-    .return (x + addition) * multiplication
+    return (x + addition) * multiplication
 
 ```
 
