@@ -1,5 +1,5 @@
 {
-  "name": "@uriva/functional-code-style",
+  "name": "@uriva/code-style-guide",
   "version": "0.1.0",
   "description": "Functional programming code style guide emphasizing conciseness, purity, composition, and point-free patterns for Python and JavaScript.",
   "visibility": "public",

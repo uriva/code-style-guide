@@ -1,5 +1,5 @@
 ---
-name: functional-code-style
+name: code-style-guide
 description: |
   Functional programming code style guide emphasizing conciseness, purity,
   composition, and point-free patterns. Covers Python and JavaScript.
